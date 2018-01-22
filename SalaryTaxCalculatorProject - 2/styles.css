@@ -1,0 +1,99 @@
+body{
+    font-family: monospace;
+}
+
+.backgroundImg{ 
+    background-image: url("img/calculator.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.container{
+    background-color: rgba(67, 71, 67, 0.26);
+    margin-top: 10px;
+    height: 100%;
+}
+
+.text-center{
+    margin-top: 10px;
+}
+
+.row{
+    flex-flow: column;
+}
+
+.text-danger{ 
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+    background-color: rgba(61, 53, 95, 0.87);
+    border: none;   
+    color: black!important;
+    
+}
+
+ .text-center:hover h3 {
+    display: block;
+ }
+
+ h3 {
+    display: none;
+    background-color: rgba(61, 53, 95, 0.63);
+    padding: 10px;
+ }
+
+ .text-primary{
+    font-family: 'Kalam';
+    color: black!important;
+    font-size: 1em;
+}
+
+.input-field{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+    background-color: rgba(99, 86, 153, 0.42);
+    border: none;
+}
+
+.input-field > * {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+    border: none;
+}
+
+
+.btn-primary{
+    opacity: 0.5;
+    background-color:  rgba(61, 53, 95, 0.87);
+    padding: 0.4em;
+    font-size: 1em;
+}
+
+.btn-primary:hover {
+    background-color: rgba(61, 53, 95, 0.63);
+}
+
+.row-flex{
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+    background-color: rgba(99, 86, 153, 0.42);
+    border: none;
+    display:flex;
+    flex-flow: row;
+    align-content: space-between;
+}
+
+.col-sm-3{
+    text-align: center;
+    font-size: 1em;
+}
+

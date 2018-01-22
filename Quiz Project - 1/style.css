@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+}
+
+img{
+    width: 30%;
+}
+
+ul li{
+list-style-type:decimal;
+font-family: monospace;
+}
+
+.quiz{
+    background-image: url(img/quiz.png);
+    background-size: contain;
+    background-color: rgba(193, 83, 83, 0.8);
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(216, 146, 146, 0.58);
+}
+
+.row{
+    flex-direction: column;  
+    margin-left: 100px;
+}
+
+.row input{
+    width: 30%;
+}
+
+
+.btn-primary{
+    opacity: 0.5;
+    background-color:  rgba(193, 83, 83, 0.8);
+    padding: 0.4em;
+    font-size: 1em;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgba(216, 146, 146, 0.58);
+}
